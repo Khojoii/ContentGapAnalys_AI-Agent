@@ -50,13 +50,9 @@ You can check an example input and output file here:
 [example_input.txt](example_input.txt) , [example_output.json](example_output.json)
 
 
-You can check an example input file here:  
-
-
-
-
 ## Found a Bug?
 
 If you encounter an issue or want to suggest an improvement, please submit it via the **Issues** tab.
 
 #
+
