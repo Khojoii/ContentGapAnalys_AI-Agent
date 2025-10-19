@@ -22,7 +22,7 @@ llm = ChatOpenAI(
 
 
 
-    api_key="aa-qQ83RCj6StMiojqP9GQXDzWUNENhEbKfBf0n2dKusfAKp7I7"
+    api_key="aa-***"
 )
 # this is testing the API connection and tracking token usage
 print("Testing OpenAI API connection...")
