@@ -49,7 +49,8 @@ It then generates a **marketing insight summary** to guide content improvement a
 - **FastAPI** – serve API endpoints  
 - **Pydantic** – data validation and structured output  
 - **Regex (re)** – text normalization  
-- **OpenAI GPT API** – semantic comparison and content analysis  
+- **OpenAI GPT API** – semantic comparison and content analysis
+- **Pytest** – unit test for important project parts
 
 ---
 
@@ -202,6 +203,7 @@ You can check an example input and output file here:
 ## Found a Bug?
 
 If you encounter an issue or want to suggest an improvement, please submit it via the **Issues** tab.
+
 
 
 
