@@ -1,0 +1,11 @@
+2025-10-26 01:46:56,357 | INFO | Testing OpenAI API connection...
+2025-10-26 01:46:57,074 | INFO | HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 01:46:57,079 | INFO | Tokens Used: 30
+	Prompt Tokens: 20
+		Prompt Tokens Cached: 0
+	Completion Tokens: 10
+		Reasoning Tokens: 0
+Successful Requests: 1
+Total Cost (USD): $8.999999999999999e-06
+2025-10-26 01:46:57,079 | INFO | OpenAI API test successful
+2025-10-26 01:46:57,081 | INFO | Starting FastAPI app on 0.0.0.0:8000...

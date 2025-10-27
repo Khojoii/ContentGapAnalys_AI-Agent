@@ -1,0 +1,27 @@
+2025-10-26 01:41:02,894 | INFO | Testing OpenAI API connection...
+2025-10-26 01:41:03,659 | INFO | HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 01:41:03,665 | INFO | Tokens Used: 30
+	Prompt Tokens: 20
+		Prompt Tokens Cached: 0
+	Completion Tokens: 10
+		Reasoning Tokens: 0
+Successful Requests: 1
+Total Cost (USD): $8.999999999999999e-06
+2025-10-26 01:41:03,666 | INFO | OpenAI API test successful
+2025-10-26 01:41:03,868 | INFO | Input file uploaded. Saved as D:\GapAnalys\I_O/inputs\input4.json
+2025-10-26 01:41:06,296 | INFO | Starting content gap analysis for D:\GapAnalys\I_O/inputs\input4.json...
+2025-10-26 01:41:12,231 | INFO | HTTP Request: POST https://api.avalai.ir/v1/chat/completions "HTTP/1.1 200 OK"
+2025-10-26 01:41:12,232 | INFO | Tokens Used: 2970
+	Prompt Tokens: 2321
+		Prompt Tokens Cached: 0
+	Completion Tokens: 649
+		Reasoning Tokens: 0
+Successful Requests: 1
+Total Cost (USD): $0.00073755
+2025-10-26 01:41:12,232 | INFO | 
+2025-10-26 01:41:12,232 | INFO | Validated product_name: هدفون بلوتوثی انکر مدل Soundcore Life P3 (دیجی کالا)
+2025-10-26 01:41:12,232 | INFO | Validated product_name: هدفون بلوتوثی انکر مدل Soundcore Life P3 (هندزفری لند)
+2025-10-26 01:41:12,232 | INFO | Validated product_name: هدفون بلوتوثی انکر مدل Soundcore Life P3 (ایران انکر)
+2025-10-26 01:41:12,232 | INFO | Validated marketing_insight
+2025-10-26 01:41:12,232 | INFO | Product consistency validated successfully
+2025-10-26 01:41:12,233 | INFO | Analysis complete, output saved to D:\GapAnalys\I_O/outputs\output3.json
