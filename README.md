@@ -54,30 +54,30 @@ It then generates a **marketing insight summary** to guide content improvement a
 ---
 
 ## Project Structure
-
-content-gap-analyzer
+content-gap-analyzer/
 │
-├── .env                        # Environment variables (API keys, configuration settings)
-├── agent.py                    # Core logic that communicates with the API and performs content analysis
-├── base_model.py               # Pydantic models for data validation and structured responses
-├── logger.py                   # Central logging system (saves logs with timestamps)
-├── main.py                     # FastAPI application entry point (defines endpoints for upload & analysis)
-├── requirements.txt            # List of Python dependencies
+├── .env                          # Environment variables (API keys, configuration settings)
+├── agent.py                      # Core logic that communicates with the API and performs content analysis
+├── base_model.py                 # Pydantic models for data validation and structured responses
+├── logger.py                     # Central logging system (saves logs with timestamps)
+├── main.py                       # FastAPI application entry point (defines endpoints for upload & analysis)
+├── requirements.txt              # List of Python dependencies
 │
-├── logs/                       # Automatically created folder for log files
+├── logs/                         # Automatically created folder for log files
 │   └── log_YYYY-MM-DD_HH-MM-SS.log
 │
-├── I_O/                        # Input/Output data folder
-│   ├── inputs/                 # Input files (e.g., product data)
+├── I_O/                          # Input/Output data folder
+│   ├── inputs/                   # Input files (e.g., product data)
 │   │   └── input.json
-│   └── outputs/                # Output files (e.g., model analysis results)
+│   └── outputs/                  # Output files (e.g., model analysis results)
 │       └── output.json
 │
-└── unit_tests/                 # Unit tests for each module
-    ├── test_agent.py           # Tests for agent logic
-    ├── test_base_model.py      # Tests for Pydantic models
-    ├── test_logger.py          # Tests for logging functionality
-    └── test_main.py            # Tests for FastAPI endpoints
+└── unit_tests/                   # Unit tests for each module
+    ├── test_agent.py             # Tests for agent logic
+    ├── test_base_model.py        # Tests for Pydantic models
+    ├── test_logger.py            # Tests for logging functionality
+    └── test_main.py              # Tests for FastAPI endpoint
+
 
 
 ## How to use 
@@ -201,4 +201,5 @@ You can check an example input and output file here:
 ## Found a Bug?
 
 If you encounter an issue or want to suggest an improvement, please submit it via the **Issues** tab.
+
 
