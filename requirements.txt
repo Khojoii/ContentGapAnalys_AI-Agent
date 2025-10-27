@@ -3,3 +3,4 @@ langchain_community
 langchain_openai
 fastapi
 uvicorn
+pytest
